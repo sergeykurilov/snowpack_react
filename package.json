@@ -1,0 +1,28 @@
+{
+  "name": "snowpack_react",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "cypress:open": "cypress open",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "snowpack": "^3.8.8",
+    "cypress": "^9.1.1",
+    "eslint": "^8.4.1",
+    "eslint-plugin-react": "^7.27.1",
+    "jest": "^27.4.3",
+    "prettier": "^2.5.1"
+  }
+}
